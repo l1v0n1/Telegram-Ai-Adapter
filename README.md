@@ -17,7 +17,7 @@ These instructions assume you have Python 3.8+ and `pip` installed on your syste
 **1. Clone the Repository:**
 
 ```bash
-git clone https://github.com/l1v0n1/telegram-ai-adapter.git
+git clone https://github.com/l1v0n1/Telegram-Ai-Adapter.git
 cd telegram-ai-adapter # Or your repository directory name
 ```
 
@@ -79,13 +79,9 @@ pip install -r requirements.txt
     # The 'key' is used in commands like /key <message>
     # The 'username' is the Telegram username of the target bot (without @)
     TARGET_BOTS='{"bot1": "some_bot_username", "claude": "claude_ai_bot", "chatgpt": "chatgpt_official_bot"}' # Example, replace with your bots
-
-    # --- Optional ---
-    # ALLOWED_USER_IDS='["123456789", "987654321"]' # Optional: List of user IDs allowed to use the Aiogram bot (JSON list of strings)
     ```
 
     *   **Important:** The `TARGET_BOTS` value **must** be a valid JSON string enclosed in single quotes (as shown). The keys (`"bot1"`, `"claude"`, etc.) are the short names you will use in commands like `/bot1 message`. The values are the actual Telegram usernames of the target bots.
-    *   The `ALLOWED_USER_IDS` is optional. If you uncomment it and provide a list of Telegram user IDs (as strings), only those users will be able to interact with your Aiogram bot. You can find your user ID by talking to bots like `@userinfobot`.
 
 ## Running the Application
 
