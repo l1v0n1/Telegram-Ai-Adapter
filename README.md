@@ -18,7 +18,7 @@ These instructions assume you have Python 3.8+ and `pip` installed on your syste
 
 ```bash
 git clone https://github.com/l1v0n1/Telegram-Ai-Adapter.git
-cd telegram-ai-adapter # Or your repository directory name
+cd Telegram-Ai-Adapter # Or your repository directory name
 ```
 
 **2. Set up a Virtual Environment:**
